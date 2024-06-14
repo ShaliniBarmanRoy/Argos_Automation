@@ -1,0 +1,21 @@
+Problem Statement:
+
+Using Page Object Model, create a test script using any object-oriented programming language, using a behavioural-driven framework of your choice (Example SpecFlow or Cucumber) based on the following
+Scenario:
+1.Navigate to Argos (No need to login), Search For a product (Any product of your choice) on Argos, verify that the search result page returns the item you searched for, add the product to the basket and validate the product is in the basket.
+2.Increase the quantity by 2 and validate the subtotal.
+
+Please use the following url: https://www.argos.co.uk/
+
+Solution:
+The automation flow is completed. The feature file, step definition and Test Runner is present under src/test/java path.
+The scenario can be executed by running the Test Runner file directly or  using maven command "mvn clean test".
+In order to generate the cucumber html report, run the command "mvn verify -DSkipTests"/ The report will be generate under target/cucumber-reports
+But,this framework already have the cucumber test report ready. The screenshots is present under test/Screenshots path.
+
+Note :  In order to run with Maven command . please make sure maven is installed in local system.
+
+Besides, the Page class is present under src/main/java/com/pages and  drivefactory class and basic function class are present under
+src/main/java/com/utls
+
+

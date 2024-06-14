@@ -1,0 +1,6 @@
+stepdefinitions\productPageStep.class
+stepdefinitions\searchPageStep.class
+stepdefinitions\trolleyPageStep.class
+stepdefinitions\homePageStep.class
+hooks\SetUpHooks.class
+runner\TestRunner.class
